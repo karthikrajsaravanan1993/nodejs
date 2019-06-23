@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-	- source: /
-    	  destination: /myapp
+  - source: /
+    destination: /myapp
 permissions:
   - object: /myapp/startapp.sh
     mode: 777
